@@ -10,7 +10,8 @@
         "preview": "vite preview",
         "test": "vitest run",
         "test:watch": "vitest",
-        "test:coverage": "vitest run --coverage"
+        "test:coverage": "vitest run --coverage",
+        "postinstall": "chmod +x node_modules/.bin/vite"
     },
     "dependencies": {
         "@emotion/react": "^11.14.0",
@@ -46,7 +47,7 @@
         "eslint-plugin-react-refresh": "^0.4.5",
         "jsdom": "^24.0.0",
         "typescript": "^5.2.2",
-        "vite": "^5.0.8",
+        "vite": "^5.4.19",
         "vitest": "^1.2.2"
     }
 }
